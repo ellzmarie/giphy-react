@@ -3,11 +3,10 @@
 ## Tasks:
 
 * Read through the Giphy docs. 
-* Diagram my App (image):
-
-- What components will I have?
-- Where would state "live"?
-- Where do I need to pass props?
+* Diagram my app (include Image):
+    1. What components will I have?
+    2. Where would state "live"?
+    3.  Where do I need to pass props?
 
 ## 🚀 Completion looks like:
 
