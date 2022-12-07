@@ -1,15 +1,15 @@
 # React Giphy app
 
-## Task
-Read through the Giphy docs. 
+## Tasks:
 
-Diagram my App (image):
+* Read through the Giphy docs. 
+* Diagram my App (image):
 
 - What components will I have?
 - Where would state "live"?
 - Where do I need to pass props?
 
-##🚀 Completion looks like:
+## 🚀 Completion looks like:
 
 - Minimum of 3 components.
 - A diagram of my component hierarchy.
