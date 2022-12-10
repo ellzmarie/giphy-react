@@ -7,7 +7,7 @@ function App() {
   const [giphyData, setGiphyData] = useState({})
 
   const makeApiCall = async() => {
-    const giphyUrl = 'https://api.giphy.com/v1/gifs/trending?api_key=VjNXDEttZUF1oTKahzVhHbsGIemwaIDl&limit=25&rating=g';
+    const giphyUrl = 'https://api.giphy.com/v1/gifs/random?api_key=VjNXDEttZUF1oTKahzVhHbsGIemwaIDl&tag=&rating=g';
 
     const res = await fetch(giphyUrl);
     const json = await res.json();
@@ -15,12 +15,13 @@ function App() {
     setGiphyData(json)
   }
   console.log(giphyData)
-  
+
   return (
     <div className="App">
       <h1>GIPHY APP</h1>
+      <GiphyDisplay giphy={giphyData}/> { }
       <Random getGiphy={makeApiCall}/>
-      <GiphyDisplay giph={giphyData}/>
+
     </div>
   );
 }
