@@ -8,7 +8,8 @@
     2. Where would state "live"?
     3.  Where do I need to pass props?
 
-    './img/giphylab-wireframe.jpg'
+    ![img](..img/giphylab-wireframe.jpg)
+
 
 ## 🚀 Completion looks like:
 
