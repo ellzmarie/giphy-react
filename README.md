@@ -2,7 +2,7 @@
 
 ## Tasks:
 
-* Read through the (Giphy docs)[https://developers.giphy.com/docs/api/endpoint/#random-id]. 
+* Read through the [Giphy docs](https://developers.giphy.com/docs/api/endpoint/#random-id). 
 * Diagram my app:
     1. What components will I have?
     2. Where would state "live"?
