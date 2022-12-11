@@ -2,11 +2,13 @@
 
 ## Tasks:
 
-* Read through the Giphy docs. 
-* Diagram my app (include Image):
+* Read through the (Giphy docs)[https://developers.giphy.com/docs/api/endpoint/#random-id]. 
+* Diagram my app:
     1. What components will I have?
     2. Where would state "live"?
     3.  Where do I need to pass props?
+
+    './img/giphylab-wireframe.jpg'
 
 ## 🚀 Completion looks like:
 

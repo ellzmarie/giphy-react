@@ -6,9 +6,9 @@ const GiphyDisplay = ({giphy}) => {
         <>
         <h1>Merry Holidays! Enjoy this random GIF just for you. </h1>
         <img src={giphy.data.images.downsized.url} alt={giphy.data.title}/>
-        </>
+        </> 
     ) : (
-        <img src={giphy.data.images.downsized.url}/>
+        <p>Click below</p>
     )
 }
 

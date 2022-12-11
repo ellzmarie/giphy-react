@@ -19,8 +19,11 @@ function App() {
   return (
     <div className="App">
       <h1>GIPHY APP</h1>
-      <GiphyDisplay giphy={giphyData}/> { }
-      <Random getGiphy={makeApiCall}/>
+      <GiphyDisplay giphy={giphyData}/> 
+      <div className='random'>
+        <Random getGiphy={makeApiCall}/>  
+      </div> 
+      
 
     </div>
   );
