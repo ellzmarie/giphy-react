@@ -8,9 +8,9 @@
     2. Where would state "live"?
     3.  Where do I need to pass props?
 
-    ![img](..img/giphylab-wireframe.jpg)
+    ![Root page](src/img/giphylab-wireframe.jpg)
 
-
+ 
 ## 🚀 Completion looks like:
 
 - Minimum of 3 components.
