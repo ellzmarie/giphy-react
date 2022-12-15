@@ -1,7 +1,7 @@
 
 const GiphyDisplay = ({giphy}) => {
     console.log(giphy)
-
+//i like how you added text after they click the button
     return giphy.data ? (
         <>
         <h1>Merry Holidays! Enjoy this random GIF just for you. </h1>

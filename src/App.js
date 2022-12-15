@@ -4,6 +4,17 @@ import Random from './components/Random.js';
 import GiphyDisplay from './components/GiphyDisplay.js';
 
 function App() {
+  //example of search api call
+  // const [tag, setTag] = useState(null)
+  // const getTag = async (input) => {
+  //   const response = await fetch(
+  //     `https://api.giphy.com/v1/stickers/random?api_key=${API_KEY}&tag=${input}`
+  //   )
+  //   const data = await response.json()
+  //   setTag(data)
+  // }
+
+
   const [giphyData, setGiphyData] = useState({})
 
   const makeApiCall = async() => {
